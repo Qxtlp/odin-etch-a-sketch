@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,17 @@
     <title>Etch a Sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="grid">
 
+<body onload="addGrid(16)">
+    <div id="grid"></div>
+    <div>
+        <input type="range" value="16" min="1" max="100" onchange="this.nextElementSibling.value = this.value;addGrid(this.value)">
+        <output></output>
     </div>
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>

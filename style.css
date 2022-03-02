@@ -1,13 +1,11 @@
 #grid {
     display: grid;
-    grid-template-columns: repeat(16, 50px);
-    width: fit-content;
     border: 1px solid black;
     box-shadow: 0 0 10px rgb(14, 9, 9);
+    width: 960px;
+    height: 100vh;
 }
 
 .item {
-    height: 50px;
-    width: 50px;
     border: 1px solid;
 }
