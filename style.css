@@ -1,0 +1,12 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(16, 50px);
+    width: fit-content;
+    border: 1px solid black;
+    box-shadow: 50px 50px;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+}
